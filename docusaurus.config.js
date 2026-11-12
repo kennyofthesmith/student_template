@@ -8,7 +8,7 @@ const config = {
   future: {},
 
   url: 'kennyofthesmith.github.io',
-  baseUrl: process.env.GITHUB_ACTIONS ? `/${student_template}/` : '/',
+  baseUrl: /student-template/,
   organizationName: owner,
   projectName: repo,
   trailingSlash: false,
