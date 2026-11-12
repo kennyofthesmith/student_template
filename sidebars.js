@@ -18,7 +18,7 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'doc',
-      id: 'Zombie',
+      id: 'zombie',
       label: 'Defending our Home',
       className: 'sidebar-paper-title',
     },
