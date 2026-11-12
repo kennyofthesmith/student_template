@@ -1,5 +1,3 @@
-# LiveWhitePaper
-
 This template turns your white paper into a live website. You write in Markdown, and every time you commit a change, GitHub rebuilds and republishes your site automatically.
 
 ## Setting up your copy
