@@ -7,12 +7,11 @@ const config = {
 
   future: {},
 
-  url: 'https://example-research-series.org',
-  baseUrl: '/',
-
-  organizationName: 'example-org',
-  projectName: 'working-papers',
-
+  url: 'kennyofthesmith.github.io',
+  baseUrl: process.env.GITHUB_ACTIONS ? `/${student_template}/` : '/',
+  organizationName: owner,
+  projectName: repo,
+  trailingSlash: false,
   onBrokenLinks: 'throw',
 
   i18n: {
