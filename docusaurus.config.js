@@ -1,5 +1,6 @@
 // @ts-check
 /** @type {import('@docusaurus/types').Config} */
+const [owner, repo] = (process.env.GITHUB_REPOSITORY || 'kennyofthesmith/student_template').split('/');
 const config = {
   title: '107T Research Series',
   tagline: 'Papers on issues of interest to Isla Vista residents',
